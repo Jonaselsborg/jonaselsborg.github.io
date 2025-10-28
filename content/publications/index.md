@@ -4,6 +4,8 @@ description: "This section will list my papers with urls"
 layout: "simple"
 ---
 
+## Research articles
+
 ### 2025
 
 - **Elsborg JD**, Munk SH, Adelantado-Rubio A, Pék R, Fábian Z, Imburchia V, Zentout S, Hendriks IA, Buch-Larsen SC, Smith R, Bartek J, Duxin JP, Huet S, Maya-Mendoza A, Nielsen ML, [PARP1 auto-modification promotes faithful Okazaki fragment processing and limits replication fork speed](http://dx.doi.org/10.1016/j.molcel.2025.09.006). _Molecular cell_ **85** 3562-3575.e10 (2025)
