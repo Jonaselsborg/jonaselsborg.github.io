@@ -18,7 +18,7 @@
       <author>jonas.elsborg@path.ox.ac.uk (Jonas D. Elsborg)</author>
       <guid>http://localhost:1313/posts/paperpile_post/</guid>
       <description>A tour of the best reference manager: Paperpile</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/paperpile_post/featured.png" />
     </item>
     
   </channel>
