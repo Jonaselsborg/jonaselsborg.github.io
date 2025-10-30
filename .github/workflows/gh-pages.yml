@@ -94,6 +94,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Disable Jekyll on GitHub Pages
+        run: touch public/.nojekyll          
   deploy:
     environment:
       name: github-pages
