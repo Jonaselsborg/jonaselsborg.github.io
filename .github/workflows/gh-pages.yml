@@ -90,12 +90,12 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+      - name: Disable Jekyll on GitHub Pages
+        run: touch public/.nojekyll             
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
-      - name: Disable Jekyll on GitHub Pages
-        run: touch public/.nojekyll          
+          path: ./public       
   deploy:
     environment:
       name: github-pages
